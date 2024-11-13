@@ -16,6 +16,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
         public string CustomerSurname { get; set; }
         public string CustomerDistrict { get; set; }
         public string CustomerCity { get; set; }
+        public List<Order> Orders{ get; set; }
 
         // SOLID
 
@@ -31,10 +32,10 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
         // Dependency Inversion Principle (DIP) => Yüksek seviyeli modüller (iş mantığı) düşük seviyeli modüllere (veri erişim katmanı gibi) bağımlı olmamalıdır. Her ikisi de soyutlamalara (arayüzler veya soyut sınıflar) bağımlı olmalıdır.
 
         //SOLID Prensiplerinin Faydaları
-            //Bakım Kolaylığı: Kod daha modüler olduğu için daha kolay anlaşılır ve değiştirilebilir.
-            //Genişletilebilirlik: Yeni özellikler eklemek, mevcut kodu değiştirmeden mümkün hale gelir.
-            //Test Edilebilirlik: Kodun test edilmesi daha kolaydır, çünkü her modül belirli bir sorumluluğa sahiptir.
-            //Esneklik: Kod, değişikliklere ve büyümeye karşı daha dayanıklı hale gelir.
+        //Bakım Kolaylığı: Kod daha modüler olduğu için daha kolay anlaşılır ve değiştirilebilir.
+        //Genişletilebilirlik: Yeni özellikler eklemek, mevcut kodu değiştirmeden mümkün hale gelir.
+        //Test Edilebilirlik: Kodun test edilmesi daha kolaydır, çünkü her modül belirli bir sorumluluğa sahiptir.
+        //Esneklik: Kod, değişikliklere ve büyümeye karşı daha dayanıklı hale gelir.
 
     }
 }

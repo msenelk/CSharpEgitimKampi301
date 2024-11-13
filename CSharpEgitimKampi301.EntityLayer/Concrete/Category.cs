@@ -35,6 +35,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
         // get => almak
         // set => ayarlamak
         public bool CategoryStatus { get; set; }
+        public List<Product> Products { get; set; }
 
     }
 }
