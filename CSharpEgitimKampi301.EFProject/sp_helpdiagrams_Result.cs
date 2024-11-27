@@ -10,13 +10,13 @@
 namespace CSharpEgitimKampi301.EFProject
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class Customer
+    public partial class sp_helpdiagrams_Result
     {
-        public int CustomerId { get; set; }
-        public string CustomerName { get; set; }
-        public string CustomerSurname { get; set; }
-        public Nullable<decimal> CustomerBalance { get; set; }
+        public string Database { get; set; }
+        public string Name { get; set; }
+        public int ID { get; set; }
+        public string Owner { get; set; }
+        public int OwnerID { get; set; }
     }
 }
